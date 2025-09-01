@@ -60,14 +60,14 @@ const ProfileAbout = () => {
                 {[
                   { label: 'Full Name', value: 'Trần Hoàng Vũ' },
                   { label: 'Age', value: '22/05/2025' },
-                  { label: 'Location', value: 'Võ Văn Ngân, Thủ Đức, Hồ Chí Minh' },
+                  { label: 'Location', value: 'Hồ Chí Minh' },
                   { label: 'Email', value: 'tranhoangvu2205@gmail.com' },
                   { label: 'Phone', value: '0394442841' },
                   { label: 'Languages', value: 'Vietnamese' }
                 ].map((item) => (
                   <div key={item.label} className="flex justify-between items-center py-2 border-b border-white/10">
-                    <span className="text-gray-400 font-medium">{item.label}:</span>
-                    <span className="text-white font-semibold">{item.value}</span>
+                    <span className="text-gray-400 font-normal">{item.label}:</span>
+                    <span className="text-white font-normal">{item.value}</span>
                   </div>
                 ))}
               </div>
@@ -101,12 +101,12 @@ const ProfileAbout = () => {
                   <p className="text-gray-400">Issued by Đại Học Sài Gòn</p>
                   <p className="text-gray-500 text-sm">2024</p>
                 </div>
-                <div className="border-l-[1px] border-gray-400 pl-1 h-8 "></div>
+                {/* <div className="border-l-[1px] border-gray-400 pl-1 h-8 "></div>
                 <div className="">
                   <h4 className="text-white font-semibold">TOEIC 455</h4>
                   <p className="text-gray-400">Issued by IIG Vietnam</p>
                   <p className="text-gray-500 text-sm">2024</p>
-                </div>
+                </div> */}
                 </div>
                 
               </div>

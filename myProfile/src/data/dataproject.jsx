@@ -92,8 +92,8 @@ export const projects = [
     image: Avt,
     category: 'web',
     technologies: ['ReactJS', 'Tailwind CSS', 'Vite'],
-    liveUrl: 'null',
-    githubUrl: 'https://github.com/tranhoangvu2205/mini-react-project',
-    featured: false,
+    liveUrl: 'https://tranhoangvu.vercel.app',
+    githubUrl: 'https://github.com/THoangVu/myProfile/tree/main/myProfile',
+    featured: true,
   },
 ];
