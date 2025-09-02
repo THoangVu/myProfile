@@ -17,7 +17,7 @@ const ProfileSkills = () => {
     { name: 'JavaScript (ES6+)', level: 65, color: 'from-yellow-400 to-orange-500' },
     { name: 'HTML5 & CSS3', level: 65, color: 'from-pink-500 to-red-500' },
     { name: 'Tailwind CSS / Bootstrap', level: 65, color: 'from-teal-500 to-green-500' },
-    { name: 'State Management (Redux)', level: 55, color: 'from-purple-500 to-indigo-500' },
+    { name: 'State Management (Redux)', level: 50, color: 'from-purple-500 to-indigo-500' },
     { name: 'Version Control (Git, GitHub)', level: 60, color: 'from-gray-500 to-gray-700' },
     { name: 'TypeScript (Basic – learning)', level: 40, color: 'from-sky-500 to-blue-600' },
     { name: 'MongoDB (Basic)', level: 50, color: 'from-green-600 to-emerald-600' }

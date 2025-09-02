@@ -59,7 +59,7 @@ const ProfileAbout = () => {
               <div className="space-y-4">
                 {[
                   { label: 'Full Name', value: 'Trần Hoàng Vũ' },
-                  { label: 'Age', value: '22/05/2025' },
+                  { label: 'Age', value: '22/05/2022' },
                   { label: 'Location', value: 'Hồ Chí Minh' },
                   { label: 'Email', value: 'tranhoangvu2205@gmail.com' },
                   { label: 'Phone', value: '0394442841' },
