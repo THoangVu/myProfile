@@ -129,12 +129,12 @@ const ProfileSkills = () => {
     
     <div className="space-y-4">
       {[
-        { name: 'Communication', level: 3, icon: '💬' },
-        { name: 'Problem Solving', level: 4, icon: '🧩' },
-        { name: 'Time Management', level: 4, icon: '⏰' },
-        { name: 'Adaptability', level: 4, icon: '🔄' },
-        { name: 'Creativity', level: 4, icon: '🎨' },
-        { name: 'Teamwork', level: 5, icon: '🤝' }
+        { name: 'Communication', level: 3, icon: '💬' },   
+        { name: 'Problem Solving', level: 3, icon: '🧩' }, 
+        { name: 'Time Management', level: 4, icon: '⏰' }, 
+        { name: 'Adaptability', level: 4, icon: '🔄' },    
+        { name: 'Creativity', level: 3, icon: '🎨' },      
+        { name: 'Teamwork', level: 4, icon: '🤝' }, 
       ].map((skill) => (
         <div
           key={skill.name}
